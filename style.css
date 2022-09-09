@@ -1,0 +1,144 @@
+
+p.a{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: aqua;
+}
+p.b{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: aqua;
+}
+p.c{
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: aqua;
+}
+p.d{
+    display: none;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: aqua;
+}
+/* initial */
+.p1{
+    color: chocolate;
+    border: 1px solid darkgreen;
+}
+h1{
+    color: initial;
+}
+span{
+    color: aquamarine;
+}
+.inherit span{
+    color: inherit;
+}
+.container{
+    display: flex;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-item {
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.container-2{
+    display: contents;
+    height: 200px;
+    width: 200px;
+}
+.container-3{
+    display: inline-flex;
+}
+.grid1{
+    display:inline-grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-item1 {
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.table{
+    display: table;
+}
+.table-header{
+    display: table-header-group;
+}
+.td{
+    display: table-cell;
+    border: 1px solid black;
+}
+.tr{
+    display: table-row;
+}
+.tbody{
+    display: table-row-group;
+}
+.tfoot{
+    display: table-footer-group;
+}
+.table1{
+    display: inline-table;
+}
+.table-header1{
+    display: table-header-group;
+}
+.td1{
+    display: table-cell;
+    border: 1px solid black;
+}
+.tr1{
+    display: table-row;
+}
+.tbody1{
+    display: table-row-group;
+}
+.tfoot1{
+    display: table-footer-group;
+}
+.table2{
+    display: inline-table;
+}
+.table-header2{
+    display: table-header-group;
+}
+.td2{
+    display: table-cell;
+    border: 1px solid black;
+}
+.tr2{
+    display: table-row;
+}
+.tbody2{
+    display: table-row-group;
+}
+.tfoot2{
+    display: table-footer-group;
+}
+.list{
+    display: list-item;
+}
+.runin{
+    display: run-in;
+}
+.runin1{
+    display: run-in;
+}
